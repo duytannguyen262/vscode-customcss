@@ -1,0 +1,74 @@
+.mtk5 {
+  color: transparent;
+  font-weight: 800;
+  font-style: italic;
+  background-image: linear-gradient(to right bottom, #20e3b2, #d6ff7f);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.mtk15 {
+  color: transparent;
+  font-weight: 800;
+  background-image: linear-gradient(to right, #e233ff, #ff6bcb);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.mtk3,
+.mtk16 {
+  color: transparent;
+  font-weight: 800;
+  background-image: linear-gradient(to right bottom, #df98fa, #9055ff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* .mtk9, .mtk17 {
+  color: transparent;
+  font-weight: 800;
+  background-image: linear-gradient(to right bottom, #13e2da, #9055ff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+} */
+
+.monaco-workbench
+  .part.editor
+  > .content
+  .editor-group-container
+  > .title
+  .tabs-container
+  > .tab.active.tab-border-top
+  > .tab-border-top-container {
+  background-size: 400% 400%;
+  background-image: linear-gradient(
+    -45deg,
+    #fc6c8f,
+    #ff2ced,
+    #ffb86c,
+    #2cccff,
+    rgb(0, 209, 149),
+    rgb(225, 172, 68),
+    rgb(170, 43, 148),
+    rgb(36, 55, 144)
+  );
+
+  animation: gradient 5s ease alternate infinite;
+  height: 2.5px;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}
